@@ -1,0 +1,131 @@
+/*Copyright 2020,Mayank Laxkar And Kartik Budhraja, All rights reserved.*/
+
+
+/* Footer */
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 8px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	letter-spacing: 2px;
+  }
+  footer {
+	background-color: #555;
+	color: #bbb;
+	line-height: 2.5;
+	font-family: 'IBM Plex Sans', sans-serif;
+	letter-spacing: 2px;
+  }
+  footer a {
+	text-decoration: none;
+	color: #eee;
+	font-size: 16px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	letter-spacing: 2px;
+  }
+  a:hover {
+	text-decoration: none;
+	/* color: red; */
+	/* color:  #34a9c9 ; */
+	color:#e06868 ;
+	transition: .2s ease-in;
+  }
+  .ft-title {
+	color: #fff;
+	font-size:20px;
+	border-bottom: 2px #777 solid;
+	font-family: 'IBM Plex Sans', sans-serif;
+	letter-spacing: 2px;
+  }
+
+  .address1 li {
+    list-style: none;
+    position: relative;
+    padding: 0px 0 14px 34px;
+	line-height: 26px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+ul.address1 span {
+    position: absolute;
+    width: 40px;
+	font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 40px;
+	left: 0;
+	
+}
+
+ul.address1 i {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-size: 28px;
+    top: 0;
+}
+
+ul.address1 i.fa-envelope {
+    font-size: 18px;
+    top: 4px;
+}
+  
+  
+  /* Sticks footer to bottom */
+  
+  /* Footer main */
+  .ft-main {
+	min-height: 25vh;
+	padding: 0.25rem 1.875rem;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Raleway', sans-serif;
+  }
+  @media only screen and (min-width: 29.8125rem /* 477px */) {
+	.ft-main {
+	  justify-content: space-evenly;
+	}
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+	.ft-main {
+	  justify-content: space-evenly;
+	}
+  }
+  .ft-main-item {
+	padding: 1.25rem;
+	min-width: 12.5rem;
+  }
+  
+  
+  .ft-social-list {
+	display: flex;
+	padding-top: 0.25rem;
+  }
+  .ft-social-list li {
+	margin-right: 1.6rem;
+	font-size: 1.25rem;
+	padding-left: 1.5px;
+  }
+  /* Footer legal */
+  .ft-legal {
+	padding: 0.1em 1.875rem;
+	background-color: #333;
+  }
+  .ft-legal h2{
+	  font-size: 16px;
+  }
+
+ .facebook:hover{
+	  color: #3e7bff;
+  }
+  .insta:hover{
+	/* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	background-position: left; */
+	color: #ff57db;
+  }
+  .linkedin:hover{
+	  color: #0e76a8;
+  }
+  .whatsapp:hover{
+	  color:#4FCE5D;
+  }
+
+/*footer end here*/

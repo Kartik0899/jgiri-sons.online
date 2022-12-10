@@ -1,0 +1,229 @@
+/*Copyright 2020,Mayank Laxkar And Kartik Budhraja, All rights reserved.*/
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main{
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  margin-left: 23px;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 24.3333%;
+  }
+}
+.maindiv{
+  padding-top: 50px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+    width: 100%;
+}
+
+.card_content {
+  padding: 1rem;
+}
+.card_content ul{
+  padding-left: 10px;
+    list-style: disc;
+    margin-top: 8px;
+    font-size: 12px;
+}
+hr{
+  border: 0.5px solid black;
+  width: 80%;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.card_title {
+  display: flex;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+.card_title:hover{
+  transform: scale(1.04);
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+  list-style: disc;
+}
+.card_image1{
+	height: 150px;
+	width: 210px;
+  background-image: url(images/a1.png);
+
+}
+.card_image2{
+	height: 150px;
+	width: 210px;
+	background-image: url(images/a2.png);
+}
+.card_image3{
+	height: 150px;
+	width: 210px;
+	background-image: url(images/a3.png);
+}
+.card_image4{
+	height: 150px;
+	width: 210px;
+	background-image: url(images/a4.png);
+}
+.card_image5{
+	height: 150px;
+	width: 210px;
+	background-image: url(images/a5.png);
+}
+.card_image6{
+	height: 150px;
+	width: 260px;
+	background-image: url(images/a6.png);
+}
+.card_image7{
+	height: 150px;
+	width: 260px;
+	background-image: url(images/a7.png);
+}
+.card_image8{
+	height: 150px;
+	width: 210px;
+	background-image: url(images/a8.png);
+}
+.brazing_img{
+  height: 150px;
+  width: 210px;
+  background-image: url(images/brazing-img1.png);
+}
+
+@media (min-width: 608px) and (max-width: 895px) {
+    .card_image1{
+      align-self: center;
+    }
+  }
+  
+  @media (min-width: 608px) and (max-width: 895px) {
+    .card_image2{
+      align-self: center;
+    }
+  }
+  @media (min-width: 608px) and (max-width: 895px) {
+    .card_image3{
+      align-self: center;
+    }
+  }
+  @media (min-width: 608px) and (max-width: 895px) {
+    .card_image4{
+      align-self: center;
+    }
+  }
+  @media (min-width: 608px) and (max-width: 895px) {
+    .card_image5{
+      align-self: center;
+    }
+  }
+  @media (min-width: 608px) and (max-width: 895px) {
+    .card_image6{
+      align-self: center;
+    }
+  }
+  @media (min-width: 608px) and (max-width: 895px) {
+    .card_image7{
+      align-self: center;
+    }
+  }
+  @media (min-width: 608px) and (max-width: 895px) {
+    .card_image8{
+      align-self: center;
+    }
+  }

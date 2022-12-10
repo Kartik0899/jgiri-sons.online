@@ -1,0 +1,1007 @@
+/*Copyright 2020,Mayank Laxkar And Kartik Budhraja, All rights reserved.*/
+
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+/* @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'; */
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  margin-left: 23px;
+  padding: 12px;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 24.3333%;
+  }
+}
+
+.card {
+  /* background-image: url(LOGO1_5_50x60.png); */
+  /* background-size: cover; */
+  /* background-color: white; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
+  height: 100%;
+  width: 100%;
+
+
+    /* flex-basis: 80%; */
+	/* display: flex; */
+	align-items: flex-start;
+	/* justify-content: center; */
+	flex-direction: column;
+	/* padding: 30px; */
+	border-radius: 10px;
+	background-image: url(./img/img-1.png);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.welding-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Welding\ Electrode.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .welding-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.welding-machine-card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+      align-items: flex-start;
+      flex-direction: column;
+      border-radius: 10px;
+      background-image: url(productimages/welding-machines.jpg);
+      background-size: cover;
+      margin: 10px 5%;
+      position: relative;
+      z-index: 1;
+    overflow: hidden;
+    color: white;
+  }
+  .main .welding-machine-card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+  .welding-equipment-card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+      align-items: flex-start;
+      flex-direction: column;
+      border-radius: 10px;
+      background-image: url(productimages/welding\ equipment.jpg);
+      background-size: cover;
+      margin: 10px 5%;
+      position: relative;
+      z-index: 1;
+    overflow: hidden;
+    color: white;
+  }
+  .main .welding-equipment-card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+  .Welding-acc-card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+      align-items: flex-start;
+      flex-direction: column;
+      border-radius: 10px;
+      background-image: url(productimages/welding-accessories.png);
+      background-size: cover;
+      margin: 10px 5%;
+      position: relative;
+      z-index: 1;
+    overflow: hidden;
+    color: white;
+  }
+  .main .Welding-acc-card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+  .filler-wire-card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+      align-items: flex-start;
+      flex-direction: column;
+      border-radius: 10px;
+      background-image: url(productimages/Filler\ Wire.jpg);
+      background-size: cover;
+      margin: 10px 5%;
+      position: relative;
+      z-index: 1;
+    overflow: hidden;
+    color: white;
+  }
+  .main .filler-wire-card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+  .buddy-card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+      align-items: flex-start;
+      flex-direction: column;
+      border-radius: 10px;
+      background-image: url(productimages/buddy.jpg);
+      background-size: cover;
+      margin: 10px 5%;
+      position: relative;
+      z-index: 1;
+    overflow: hidden;
+    color: white;
+  }
+  .main .buddy-card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+
+.xpert-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/xpertitems.gif);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .xpert-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.gas-nozzle-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/gasnozzle.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .gas-nozzle-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.mig-wire-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/migwire.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .mig-wire-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.hand-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/handprotection.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .hand-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.saftey-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/safetyequipments.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .saftey-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.argon-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/ARGONTORCH.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .argon-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.welding-cable-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Welding\ Cable.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .welding-cable-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.Feed-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Feed\ Roller.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .Feed-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.Hypertherm-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/HYPERTHERM\ ELECTRODE.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .Hypertherm-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.tip-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Tip\ Adapter.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .tip-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.cutting-nozzle-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Cutting\ Nozzle.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+.main .cutting-nozzle-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.carbon-brush-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Carbon\ Brush.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .carbon-brush-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.control-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Control\ Transformer.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .control-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.freemans-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Freemans\ Right\ Angle\ 12.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .freemans-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.ceramic-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Ceramic\ Nozzle.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .ceramic-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.CO2-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/CO2\ Heater.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .CO2-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.emery-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Emery\ Wheel.png);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .emery-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.Gas-cutting-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Gas\ Cutter\ Arc\ Flow\ ISI.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .Gas-cutting-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.welding-plasma-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Welding\ Plasma\ Torch.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .welding-plasma-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.tungsten-card{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-image: url(productimages/Tungsten\ Rod.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.main .tungsten-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.card_content {
+  padding: 1rem;
+}
+
+
+.card_content ul{
+  padding-left: 10px;
+    list-style: disc;
+    margin-top: 8px;
+    font-size: 13px;
+    margin-left: 6px;
+    font-family: "Gill Sans", sans-serif;
+  }
+
+  .card_content .list-items{
+    line-height: 18px;
+  }
+
+hr{
+  border: 0.5px solid black;
+  width: 80%;
+  align-self: center;
+}
+
+.card_title {
+  display: flex;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-left: 6px;
+}
+
+.card_title:hover{
+    transform: scale(1.04);
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+  list-style-type: disc;
+}
+
+
+.other_products{
+  line-height: 23px;
+}
+
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 35px;
+  margin-top: 42px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+
+span {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.section-title span {
+  color: crimson;
+}
+
+h1 {
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+

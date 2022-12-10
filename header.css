@@ -1,0 +1,164 @@
+/*Copyright 2020,Mayank Laxkar And Kartik Budhraja, All rights reserved.*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+   background-color: white;
+}
+
+nav {
+  padding: 1.5rem 2rem;
+}
+
+
+
+.logo {
+  float: left;
+  padding: 5px;
+  padding-left: 15%;
+}
+
+.logo a {
+  font-size: 2.5rem;
+  
+}
+
+nav ul {
+  float: right;
+  padding-right: 15%;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+nav ul li:not(:first-child) {
+  margin-left: 48px;
+}
+
+nav ul li:last-child {
+  margin-right: 24px;
+}
+
+nav ul li a {
+  display: inline-block;
+  outline: none;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.9rem;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 1080px) {
+  .logo {
+        padding: 0;
+        position: fixed;
+  }
+
+  .nav-wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        z-index: -1;
+        background:#f0f0f0;
+        opacity: 0;
+  }
+
+  .nav-wrapper ul {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+  }
+
+  .nav-wrapper ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+  }
+
+  .nav-wrapper ul li:not(:first-child) {
+        margin-left: 0;
+  }
+
+
+  .nav-wrapper ul li a {
+        padding: 10px 24px;
+        opacity: 0;
+        color: #000;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+        transition: all 0.2s ease;
+  }
+ 
+
+  .nav-btn {
+        position: fixed;
+        right: 3rem;
+        display: block;
+        cursor: pointer;
+        z-index: 9998;
+  }
+
+  .nav-btn i {
+        display: block;
+        width: 25px;
+        height: 4px;
+        background:black;
+  }
+
+  .nav-btn i:nth-child(1) {
+        margin-top: 12px;
+  }
+
+  .nav-btn i:nth-child(2) {
+        margin-top: 7px;
+  }
+}
+
+@media screen and (max-width: 375px){
+    .nav-wrapper {
+        width: 100%;
+  }
+}
+
+#nav:checked + .nav-btn i {
+  transition: transform 0.2s ease;
+}
+
+#nav:checked + .nav-btn i:nth-child(1) {
+  transform: translateY(5px) rotate(-135deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) {
+  transform: translateY(-6px) rotate(135deg);
+}
+
+#nav:checked ~ .nav-wrapper {
+  z-index: 9990;
+  opacity: 1;
+}
+
+#nav:checked ~ .nav-wrapper ul li a {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hidden {
+  display: none;
+}

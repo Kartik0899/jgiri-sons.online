@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    
+    <!--Copyright 2020,Mayank Laxkar And Kartik Budhraja, All rights reserved.-->
+    
+    <link rel="stylesheet" href="product-list.css">
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footercss.css">
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #intro.option1 {
+            margin-bottom: 25px;
+            margin-left: 75px;
+            margin-right: 91px;
+            margin-top: 23px;
+        }
+
+        #intro.option1 #intro-core {
+            position: relative;
+            width: 100%;
+            display: table;
+            padding-bottom: 20px;
+        }
+
+        #intro.option1 .page-title {
+            line-height: 1;
+            text-transform: uppercase;
+            margin: 0px;
+            display: table-cell;
+            text-align: left;
+        }
+
+        #intro.option1 #intro-core:before {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            border-bottom: 1px solid #EEE;
+        }
+
+        h1 {
+            font-size: 28px;
+
+            font-family: 'Quicksand', serif;
+        }
+
+        span {
+            border: 0;
+            font-family: inherit;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            margin: 0;
+            outline: 0;
+            padding: 0;
+            vertical-align: baseline;
+        }
+
+        #breadcrumbs {
+            font-size: 16px;
+            display: table-cell;
+            text-align: right;
+            vertical-align: middle;
+
+            font-family: 'Quicksand', serif;
+        }
+
+        #intro.option1 #intro-core:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0px;
+            width: 157px;
+            border-bottom: 4px solid #ffda00;
+        }
+
+        #intro-core:after {
+            clear: both;
+            display: table;
+        }
+
+        #intro.option1 #intro-core {
+            position: relative;
+            width: 100%;
+            display: table;
+            padding-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 4rem;
+            font-weight: 300;
+            color: black;
+            /* margin-bottom: 10px; */
+            margin-bottom: 35px;
+            margin-top: 42px;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+            text-align: center;
+        }
+
+        span {
+            border: 0;
+            font-family: inherit;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            margin: 0;
+            outline: 0;
+            padding: 0;
+            vertical-align: baseline;
+        }
+
+        .section-title span {
+            color: crimson;
+        }
+
+        h1 {
+            display: block;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .home-class {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- /* navbar start here */ -->
+    <div class="container">
+        <nav>
+            <input type="checkbox" id="nav" class="hidden">
+            <label for="nav" class="nav-btn">
+                <i></i>
+                <i></i>
+            </label>
+            <div class="logo">
+                <a href="index.html#home"><img class="logo-img" src="LOGO123_50x60.png" alt="Logo"></a>
+            </div>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a href="index.html#home" data-after="Home">Home</a></li>
+                    <li><a href="index.html#services" data-after="Products">Products</a></li>
+                    <li><a href="index.html#brands" data-after="Brands">Brand</a></li>
+                    <li><a href="index.html#about" data-after="About_Us">About Us</a></li>
+                    <li><a href="contactus.html" data-after="Contact_Us">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- /* navbar end here */ -->
+
+    <div class="spaceabove">
+        <div class="main">
+            <div id="intro" class="option1">
+                <div id="intro-core">
+                    <h1 class="page-title"><span>Products</span></h1>
+                    <div id="breadcrumbs">
+                        <div id="breadcrumbs-core">
+                            <a href="index.html" class="home-class">Home</a>
+                            <span class="delimiter"> / </span>PRODUCTS
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="cards">
+
+                <li class="cards_item">
+                    <div class="card welding-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Welding Rod</h2>
+                            <ul>
+                                <li>ESAB FERROARC</li>
+                                <li>ESAB XPERT</li>
+                                <li>ESAB 28</li>
+                                <li>ESAB 7018 36H</li>
+                                <li>BOHLER FOX N -7018</li>
+                                <li>BOHLER FOX N -6013</li>
+                                <li>SUPERON SS/ MS</li>
+                                <li>SHIVA S </li>
+                                <li>Superhard 550 4.00X450mm</li>
+                                <li>E6010 Cellutherme 2.5X350</li>
+                                <li>Superthrme 7018 3.15X450mm</li>
+                                <li>SUPERON 308L, 309L, 310L, 316L</li>
+                                <li>Cromotherme, Fennitherme, Supratherme</li>
+                            </ul> <br />
+                            <h3>(sizes -2.5MM, 3.5MM, 4.00MM etc.) </h3> <br />
+                            <h3>All grades and sizes are available </h3>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="cards_item">
+                    <div class="card welding-machine-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Welding machines</h2>
+                            <ul>
+                                <li>ESAB Buddy MIG 400i CO2</li>
+                                <li>ESAB Buddy TIG 400i 0700302000</li>
+                                <li>ESAB Buddy Arc 400i 0700300900</li>
+                                <li>ESAB Tig 200HF 4640220200</li>
+                                <li>ESAB Buddy Arc 200 Single Phase</li>
+                            </ul> <br />
+                            <h3>All kinds of PLASMA, WELDING AND CUTTING MACHINES </h3> <br />
+                            <h3>Stocks several other brands, also ready to supply on best rates </h3>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card welding-equipment-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Welding equipment </h2>
+                            <ul>
+                                <li>Welding PLASMA Head 80</li>
+                                <li>Welding PLASMA Torch 80</li>
+                                <li>Welding PLASMA S. Baffle</li>
+                                <li>Welding Rectifier Thyroluxe 600A</li>
+                                <li>Welding PLASMA Nozzle (816 , 819 , E/p)</li>
+                                <li>SAP Argon torches WG400, WC600</li>
+                                <li>Argon tig torch Kit GC 160,200,300 (4mtr, 8mtr)</li>
+                            </ul> <br />
+                            <h3>All the spare parts for machines and welding equipment are stocked. </h3>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="cards_item">
+                    <div class="card saftey-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Safety items</h2>
+                            <ul>
+                                <li>Face Mask – N95 and many other</li>
+                                <li>Face Shield</li>
+                                <li>Safety Helmet</li>
+                                <li>Safety Jacket</li>
+                                <LI>Leather Safety Shoe</LI>
+                                <li>Leather Apron</li>
+                                <li>Hand Gloves Cotton/Leather – ESAB, SUNSHINE ETC</li>
+                                <li>Hand Shield Armour</li>
+                                <li>Hand Gloves MIG & TIG/ Heavy Duty/ Electrical/ Cotton Dotted White/ Cotton Jeans
+                                </li>
+                                <li>Hand Gloves Leather ESAB (12",14")</li>
+                                <Li>Face Mask – N95 and many other </Li>
+                                <li>Leather Apron</li>
+                                <li>Hand Sleeve</li>
+                                <li>Leg Guard</li>
+                                <li>Safety welding googles ( white/ black)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card Welding-acc-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Welding accessories</h2>
+                            <ul class="list-items">
+                                <li>Black and white glass </li>
+                                <li>Tungsten Rod 2.4, 3.00, 2.5mm)Th 2%</li>
+                                <li>Tungsten Rod 3.0mm Cer 2%</li>
+                                <li>Tungsten Rod 2.50mm (WC 20)</li>
+                                <li>Tungsten Thoriated 2.00mm(A)</li>
+                                <li>Tungsten Thoriated Rod 1.60mm</li>
+                                <li>Measurement tape </li>
+                                <li>Carbon Brushes (4",5",7",14")</li>
+                                <li>Sprays</li>
+                                <li>DC wheel </li>
+                                <li>Tip Adapter PSF ( 250 , 405 , 505 )</li>
+                                <li>Tip Adapter M6 and M8</li>
+                                <li>FRC clothes </li>
+                                <li>Measurement tapes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card mig-wire-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Mig Wire</h2>
+                            <ul class="list-items">
+                                <li>Mig Wire (0.8mm,1.2mm)</li>
+                                <li>Mig Wire SS 304L 0.08mm</li>
+                                <li>Mig Wire ER 308L 0.8mm Alpha</li>
+                                <li>Mig Wire Aluminium 4043 1.2 mm</li>
+                                <li>Mig Wire 308L (0.8mm,1.2mm Alpha)</li>
+                                <li>Mig Wire ER 316L 0.8mm(Alpha Make)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card filler-wire-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Filler Wire</h2>
+                            <ul class="list-items">
+                                <li>Filler Wire ER Cu 1.2mm</li>
+                                <li>Filler Wire SS 304L, 308L,309L,310L,316L(2.00mm,2.5mm)</li>
+                                <li>Filler Wire ER 70S2 2.0mm</li>
+                                <li>Filler Wire Cu 1.2mm Bohler </li>
+                                <li>Filler Wire ER FF 316L (1.6mm,2.50mm)</li>
+                            </ul> <br />
+                            <h3>All grades and sizes are available </h3>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="cards_item">
+                    <div class="card xpert-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Xpert Items (ESAB)</h2>
+                            <ul class="list-items">
+                                <li>Xpert Weld 4</li>
+                                <li>Xpert Welding Helmet</li>
+                                <li>Xpert Nm Cutting Blowpipe </li>
+                                <li>Xpert CO2 S Stage Regulator</li>
+                                <li>Xpert LPG S Stage Regulator</li>
+                                <li>Xpert Argon S Stage Regulator</li>
+                                <li>Xpert Oxygen S Stege Regulator</li>
+                                <li>Xpert Acetylene Stage Regulator </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card gas-nozzle-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Gas Nozzle</h2>
+                            <ul class="list-items">
+                                <li>Gas Nozzle PSF 505</li>
+                                <li>Gas Nozzle Con. 12mm</li>
+                                <li>Gas Nozzle Con. 15mm</li>
+                                <li>Gas Nozzle Panasonic</li>
+                                <li>Gas Nozzle (8.0mm,9.8mm)</li>
+                                <li>Gas Nozzle STD (14mm,17mm,18mm)</li>
+                                <li>Gas Nozzle Con. (NW 15mm, NW16mm)</li>
+                                <li>Gas Nozzle PSF 250 A65 1691964(ICM007156)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <li class="cards_item">
+                    <div class="card hand-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Hand Protection</h2>
+                            <ul>
+                                <li>Hand Gloves Cotton</li>
+                                <li>Hand Shield Armour</li>
+                                <li>Hand Gloves HR ESAB</li>
+                                <li>Hand Sleeve Leather</li>
+                                <li>Hand Gloves MIG & TIG</li>
+                                <li>Hand Gloves Electrical</li>
+                                <li>Hand Gloves Heavy Duty</li>
+                                <li>Hand Gloves Cotton Jeans</li>
+                                <li>Hand Gloves Cotton Dotted White</li>
+                                <li>Hand Gloves Leather ESAB (12",14")</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="cards_item">
+                    <div class="card argon-card">
+
+                        <div class="card_content">
+                            <h2 class="card_title">Argon Torch</h2>
+                            <ul>
+                                <li>Argon Welding Torch 26V</li>
+                                <li>Argon Torch WG 400 (8M)</li>
+                                <li>Argon Torch WC 600 (4mtr)</li>
+                                <li>Argon tig torch Kit GC 160(4mtr)</li>
+                                <li>Argon tig torch Kit GC 300(4mtr,8mtr)</li>
+                                <li>Argon tig torch Kit GC 200(4mtr,8mtr)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card buddy-card">
+
+                        <div class="card_content">
+                            <h2 class="card_title">Buddy </h2>
+                            <ul>
+                                <li>Buddy Mig 400i CO2</li>
+                                <li>Buddy Tig 400i 0700302000</li>
+                                <li>Buddy Arc 400i 0700300900</li>
+                                <li>Buddy Tig 200HF 4640220200</li>
+                                <li>Buddy Feed 402 ESAB 0700301200</li>
+                                <li>Buddy Arc 200 Single Phase (0700300887) </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card welding-cable-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Welding Cable</h2>
+                            <ul>
+                                <li>Welding Cable 50sq mm HOFR</li>
+                                <li>Welding Cable Aluminium 70sq. M</li>
+                                <li>Welding Cable 400 Amp Associate</li>
+                                <li>Welding Cable 35Cu HOFR Associate</li>
+                                <li>Welding Cable 35sq. mm SUNSHINE ISI</li>
+                                <li>Welding Cable Associate (230amps , 300amps)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card Feed-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Feed Roller</h2>
+                            <ul>
+                                <li>Feed Roller o.8/1.2mm</li>
+                                <li>Feed Roller 0.8/1.2mm</li>
+                                <li>Feed Roller 1.2-1.2mm V (0700301207)</li>
+                                <li>Feed Roller 2.0-2.8 1250i Tract 0800440044</li>
+                                <li>Feed Roller 3.0-4.0 1250i Tract 0800440045</li>
+                                <li>Feed Roller o.8/1.2mm(B) MWF new 1651688313</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card Hypertherm-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Hypertherm items</h2>
+                            <ul>
+                                <li>Hypertherm Electrode (220777,30A-105A 220842)</li>
+                                <li>Hypertherm Shield(220857,220948,220993,45A-85A 220817) </li>
+                                <li>Hypertherm Nozzle(105A 220990, 45A 220930, 45A 220941, 65A220819, 85A 220816)</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 2 items -->
+                <li class="cards_item">
+                    <div class="card cutting-nozzle-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Cutting Nozzle</h2>
+                            <ul>
+                                <li>Cutting Nozzle PNM EASB</li>
+                                <li>Cutting Nozzle (B-1/32,B-1/8,B-3/64,B-5/64)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- End 2 items -->
+
+                <!-- 3 items -->
+
+                <li class="cards_item">
+                    <div class="card carbon-brush-card">
+
+                        <div class="card_content">
+                            <h2 class="card_title">Carbon Brush</h2>
+                            <ul>
+                                <li>Carbon Brush GWS</li>
+                                <li>Carbon Brush EP (KBM 38)</li>
+                                <li>Carbon Brush (4",5",7",14")</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card control-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Control Transformer</h2>
+                            <ul>
+                                <li>Control Transformer (M) TR4</li>
+                                <li>Control Transformer Arc 400i</li>
+                                <li>Control Transformer RS400 1611130008</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card freemans-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Freemans</h2>
+                            <ul>
+                                <li>Freemans Right Angle 12"</li>
+                                <li>Freemans Spirit Level 12"</li>
+                                <li>Freemans Spirit Level 30cm Magnet 2 Vial</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card ceramic-card">
+
+                        <div class="card_content">
+                            <h2 class="card_title">Ceramic Nozzle</h2>
+                            <ul>
+                                <li>Ceramic Nozzle</li>
+                                <li>Ceramic Nozzle (2410,2411,2412)</li>
+                                <li>Ceramic Nozzle (N-o4,N-05,N-05,N-06,N-07)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- End 3 items -->
+
+                <!-- 4 items -->
+
+                <li class="cards_item">
+                    <div class="card CO2-card">
+                        <div class="card_content">
+                            <h2 class="card_title">CO2 Heater</h2>
+                            <ul>
+                                <li>CO2 Nut </li>
+                                <li>CO2 Washer</li>
+                                <li>Co2 Regulator SUNSHINE</li>
+                                <li>CO2 Heater Core + ESAB Heater (110V,220V)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+
+                <!-- End 4 items -->
+
+                <!-- 5 items -->
+                <li class="cards_item">
+                    <div class="card emery-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Emery</h2>
+                            <ul>
+                                <li>Emery Wheel</li>
+                                <li>Emery Paper paste</li>
+                                <li>Emery Bonded Products</li>
+                                <li>Emery Value Lapping Paste</li>
+                                <li>Emery Coated Products 4" G-80,G-120</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card Gas-cutting-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Gas Cutting</h2>
+                            <ul>
+                                <li>Gasket 200Amp </li>
+                                <li>Gas Cutter Arc Flow ISI </li>
+                                <li>Gas cutting Torch 3 pipe</li>
+                                <li>Gas cutting Torch SUNCHINE 48"</li>
+                                <li>Gas Cutting nozzle Arc flow SUNSHINE</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card welding-plasma-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Welding Plasma </h2>
+                            <ul>
+                                <li>Welding Plasma Head 80</li>
+                                <li>Welding Plasma Torch 80</li>
+                                <li>Welding Plasma S. Baffle</li>
+                                <li>Welding Rectifier Thyroluxe 600A</li>
+                                <li>Welding Plasma Nozzle (816 , 819 , E/p)</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- End 5 items -->
+
+
+                <li class="cards_item">
+                    <div class="card tungsten-card">
+                        <div class="card_content">
+                            <h2 class="card_title">Tungsten Rod</h2>
+                            <ul class="other_products">
+                                <li>Tungsten Elec 150mm</li>
+                                <li>Tungsten Rod 2.4 mm Cer</li>
+                                <li>Tungsten Elec 2.4mm ESAB</li>
+                                <li>Tungsten Rod 3.0mm Th 2%</li>
+                                <li>Tungsten Rod 3.0mm Cer 2%</li>
+                                <li>Tungsten Rod 2.50mm (WC 20)</li>
+                                <li>Txh201 , 4M OKC 50 Tig Torch</li>
+                                <li>Tungsten Thoriated 2.00mm(A)</li>
+                                <li>Tungsten Thoriated Rod 1.60mm</li>
+                                <li>Tungsten Thoriated Rod 1.60mm Red</li>
+                                <li>Tungsten Rod wc 20 wT 20 (2.4MM , 3.00MM , 4.0MM)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!-- Footer main -->
+    <footer>
+        <!-- Footer main -->
+        <section class="ft-main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">J Giri and Sons</h2>
+
+                <ul class="address1">
+                    <li><i class="fa fa-map-marker"></i><a href="https://goo.gl/maps/XdPPNQyQrrnXCnZ27">C2 New Siyaganj
+                            Mall
+                            Godown Road,Indore(M.P.)</a> </li>
+                    <li><i class="fa fa-envelope"></i><a href="mailto:jgiri.indore@gmail.com">jgiri.indore@gmail.com</a>
+                    </li>
+                    <li><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:+91 9893245925">9893245925 |</a> <a
+                            href="tel:+91 0731-2539651">0731-2539651 |</a> <a
+                            href="tel:+91 0731-4045925">0731-4045925</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Links</h2>
+                <ul>
+                    <li><a href="index.html#home" data-after="Home">Home</a></li>
+                    <li><a href="index.html#about" data-after="About Us">About Us</a></li>
+                    <li><a href="index.html#services" data-after="Products">Products</a></li>
+                    <li><a href="index.html#brands" data-after="Brands">Brand</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="ft-main-item">
+                <h2 class="ft-title">Stay Updated</h2>
+
+                <div class="ft-social">
+                    <ul class="ft-social-list">
+                      <li><a class="facebook" href="https://www.facebook.com/jgiri.sonsagencies.3"><i class="fa fa-facebook-square"
+                            style="font-size:24px;"></i></a></li>
+                      <li><a class="insta" href="https://www.instagram.com/jgiri.indore/"><i class="fa fa-instagram"
+                            style="font-size:24px;"></i></a></li>
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/j-giri-sons-agencies-63381b1b4/"><i class="fa fa-linkedin"
+                            style="font-size:24px;"></i></a></li>
+                      <li><a class="whatsapp" href="https://wa.me/919893245925"><i class="fa fa-whatsapp" style="font-size:24px;"></i></a></li>
+                    </ul>
+                  </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer legal -->
+        <section class="ft-legal">
+            <h2 style="text-align: center;"> &copy; 2020 Copyright.  &nbsp; Designed and developed by Mayank & Kartik</h2>
+        </section>
+    </footer>
+    <!-- End Footer -->
+
+</body>
+
+</html>
